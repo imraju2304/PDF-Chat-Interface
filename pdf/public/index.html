@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>PDF Chat Interface</h1>
+    <input type="file" id="pdfInput" accept=".pdf">
+    <div id="chatContainer">
+        <div id="chatLog"></div>
+        <div id="pageIndicator"></div>
+    </div>
+    <textarea id="messageInput" placeholder="Type your message..."></textarea>
+    <button id="sendMessageButton">Send</button>
+
+    <div id="pdfViewerContainer">
+        <object id="pdfViewer" data="" type="application/pdf" width="100%" height="400"></object>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

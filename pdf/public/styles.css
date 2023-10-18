@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    margin: 0;
+}
+
+#pdfInput {
+    display: block;
+    margin: 20px auto;
+}
+
+#chatContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chatLog {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+#messageInput {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+#sendMessageButton {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#sendMessageButton:hover {
+    background-color: #555555;
+}
+
+#pdfViewerContainer {
+    display: none;
+    margin-top: 20px;
+}
+
+#pageIndicator {
+    margin-top: 10px;
+    color: #555;
+}
